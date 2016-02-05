@@ -38,7 +38,7 @@ make install
 If the first step does not work right away, try to rebuild the configure 
 file for your system with autotools first:
 
-autoreconf --force --install 
+autoreconf -ivf
 
 ** Mac OS X **
 
